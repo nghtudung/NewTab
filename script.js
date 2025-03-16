@@ -192,7 +192,7 @@ setTimeout(() => {
         videoBg.mute = false;
         videoBg.volume = 0.5;
     }, 100);
-}, 5000);
+}, 3000);
 
 // const videoBg = document.getElementById("bg-video");
 
