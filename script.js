@@ -153,7 +153,8 @@ document
 
 setTimeout(() => {
     const videoBg = document.createElement("video");
-    videoBg.src = "assets/wallpaper.mp4";
+    let randum = Math.floor(Math.random() * 3);
+    videoBg.src = `assets/wpp${randum}.mp4`;
     videoBg.autoplay = true;
     videoBg.loop = true;
     videoBg.muted = true;
@@ -192,7 +193,7 @@ setTimeout(() => {
         videoBg.mute = false;
         videoBg.volume = 0.5;
     }, 100);
-}, 3000);
+}, 2000);
 
 // const videoBg = document.getElementById("bg-video");
 
