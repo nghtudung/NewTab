@@ -1,13 +1,12 @@
 :root {
     /* Light mode variables */
-    --accent-color: #5500ff;
-    --bg-color: #ffffff;
-    --text-color-primary: #000000;
-    --text-color-secondary: #bbbbbb;
-    --app-container-bg: #e0e0e0;
-    --app-icon-bg: #ffffff;
-    --toggle-bg: #e0e0e0;
-    --toggle-circle: #333333;
+    --bg-color: #121212;
+    --text-color-primary: #ffffff;
+    --text-color-secondary: #666666;
+    --app-container-bg: #2a2a2a;
+    --app-icon-bg: #333333;
+    --toggle-bg: #555555;
+    --toggle-circle: #f1f1f1;
 }
 
 /* Dark mode variables */

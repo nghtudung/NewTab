@@ -50,21 +50,21 @@ function updateDateTime() {
 }
 
 function setRandomColors() {
-    const today = new Date();
-    let seed =
-        today.getFullYear() * 100 +
-        (today.getMonth() + 1) * 100 +
-        today.getDate();
+    // const today = new Date();
+    // let seed =
+    //     today.getFullYear() * 100 +
+    //     (today.getMonth() + 1) * 100 +
+    //     today.getDate();
 
-    const random = function () {
-        const x = Math.sin(seed++) * 10000;
-        return x - Math.floor(x);
-    };
+    // const random = function () {
+    //     const x = Math.sin(seed++) * 10000;
+    //     return x - Math.floor(x);
+    // };
 
-    const hue = Math.floor(random() * 360);
+    // const hue = Math.floor(random() * 360);
     document.documentElement.style.setProperty(
         "--accent-color",
-        `hsl(${hue}, 100%, 50%)`
+        `hsl(266, 100%, 50%)`
     );
 }
 
