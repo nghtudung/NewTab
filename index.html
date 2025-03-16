@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+            rel="stylesheet"
+        />
+        <title>New Tab</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="shortcut icon"
+            href="assets/favicon.ico"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <!-- Top red bar -->
+        <div class="top-bar"></div>
+
+        <!-- Theme toggle switch -->
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider"></div>
+            </label>
+        </div>
+
+        <!-- Date and time section -->
+        <div class="datetime">
+            <div class="date" id="current-date">Thu, Sept 9</div>
+            <div class="time" id="current-time">9:09 PM</div>
+        </div>
+
+        <!-- Welcome text with animation -->
+        <div class="text-container">
+            <div class="welcome-container">
+                <div class="welcome-text" id="time-of-day">Good morning</div>
+            </div>
+
+            <!-- Name with red bar animation -->
+            <div class="name-container">
+                <div class="name-text">Tuấn Dũng</div>
+            </div>
+
+            <div class="red-bar"></div>
+        </div>
+
+        <!-- Search bar -->
+
+        <div class="search-container">
+            <input
+                id="search-input"
+                type="text"
+                class="search-bar"
+                placeholder="Search the web"
+            />
+            <button class="search-button" id="search-button">
+                <img src="assets/search.svg" alt="search" />
+            </button>
+        </div>
+
+        <!-- App icons -->
+        <div class="apps-container">
+            <a
+                href="https://www.facebook.com"
+                class="app-icon"
+                title="Facebook"
+            >
+                <img src="assets/Facebook.png" alt="Facebook" />
+            </a>
+            <a
+                href="https://www.instagram.com/"
+                class="app-icon"
+                title="Instagram"
+            >
+                <img src="assets/Instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://www.youtube.com" class="app-icon" title="Youtube">
+                <img src="assets/YouTube.png" alt="YouTube" />
+            </a>
+        </div>
+        <!-- <button id="unmute-btn">🔊 Unmute</button> -->
+        <script src="script.js"></script>
+    </body>
+</html>
