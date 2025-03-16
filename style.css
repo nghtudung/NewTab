@@ -108,7 +108,7 @@ input:checked + .slider:before {
 /* Date and time section */
 .datetime {
     position: absolute;
-    top: 90px;
+    top: 50px;
     right: 10%;
     text-align: right;
     transition: color 0.5s ease;
