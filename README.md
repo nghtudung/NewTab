@@ -41,6 +41,12 @@
 
 ---  
 
+## Need help?
+
+Commit an [issue](https://github.com/nghtudung/NewTab/issues) or [contact me](https://github.com/nghtudung).
+
+---
+
 **Thank you for using our product!**  
 
-[GieJack™](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 2021-2025.  
+[GieJack™](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 2021-2025.

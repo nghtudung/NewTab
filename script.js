@@ -173,9 +173,11 @@ setTimeout(() => {
 
     const greet = document.getElementById("time-of-day");
     const curTime = document.getElementById("current-time");
+    const giejack = document.getElementById("gj-label");
 
     greet.style.color = "white";
     curTime.style.color = "white";
+    giejack.style.color = "white";
 
     document.body.appendChild(videoBg);
     document.body.style.background = "transparent"; // Ẩn màu nền cũ
